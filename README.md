@@ -18,6 +18,18 @@ From xml:
         android:background="@drawable/thinkoutsidethebox_newthumb" />
 ```
 
+# Rectangle Image View
+
+From xml:
+
+```
+<com.example.library.RectangleImageView
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/thinkoutsidethebox_newthumb" />
+```
+
 # Gradle dependency
 
 Add it in your **root build.gradle**
