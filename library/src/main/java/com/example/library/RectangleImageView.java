@@ -5,20 +5,14 @@ import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
 import android.view.View;
 
-/**
- * Customize Image View
- *
- * @version 1.0
- * @author Fazal Hussain
- */
-public class SquareImageView extends AppCompatImageView {
+public class RectangleImageView extends AppCompatImageView {
 
     /**
      * This Constructor is used by java
      *
      * @param context Holding the reference of an activity.
      */
-    public SquareImageView(Context context) {
+    public RectangleImageView(Context context) {
         super(context);
     }
 
@@ -28,7 +22,7 @@ public class SquareImageView extends AppCompatImageView {
      * @param context Holding the reference of an activity.
      * @param attrs The attrs set for setting different properties from XML.
      */
-    public SquareImageView(Context context, AttributeSet attrs) {
+    public RectangleImageView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
@@ -36,7 +30,7 @@ public class SquareImageView extends AppCompatImageView {
      * To determine the size requirements for this view and all of its children.
      *
      * <p>Fetch the size from {@link View#getMeasuredWidth()} and {@link View#getMeasuredHeight()}
-     * than set the dimension for square image view.</p>
+     * than set the dimension for rectangle image view.</p>
      *
      * @see {@link View#setMeasuredDimension(int, int)}
      *
@@ -49,6 +43,6 @@ public class SquareImageView extends AppCompatImageView {
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
         int size = Math.min(getMeasuredWidth(), getMeasuredHeight());
-        setMeasuredDimension(size, size);
+        setMeasuredDimension(size, (size/2));
     }
 }
