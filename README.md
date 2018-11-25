@@ -6,7 +6,7 @@ SquareImageView is a simple wrapper library for Android AppCompat ImageView.
 
 ![Square Image View](https://scontent.fkhi2-1.fna.fbcdn.net/v/t1.15752-9/46821428_317032732470367_5979977455501312000_n.png?_nc_cat=107&_nc_ht=scontent.fkhi2-1.fna&oh=5fc850f0148f5e2ea25bf88bcd6df961&oe=5C6DA560)
 ![Rectangle Image View](https://scontent.fkhi2-1.fna.fbcdn.net/v/t1.15752-9/46751221_2172401879753958_2845155777625194496_n.jpg?_nc_cat=100&_nc_ht=scontent.fkhi2-1.fna&oh=2155841ae26d40cd8fc5b608e5be0ebb&oe=5C6A1860)
-![Spiral Photo Viewer](https://scontent.fkhi2-1.fna.fbcdn.net/v/t1.15752-9/46751221_2172401879753958_2845155777625194496_n.jpg?_nc_cat=100&_nc_ht=scontent.fkhi2-1.fna&oh=2155841ae26d40cd8fc5b608e5be0ebb&oe=5C6A1860)
+![Spiral Photo Viewer](https://scontent.fkhi2-1.fna.fbcdn.net/v/t1.15752-9/46725849_336890353530606_8856802681289703424_n.png?_nc_cat=106&_nc_ht=scontent.fkhi2-1.fna&oh=5cfb2358e4758ea0519b6345a465991f&oe=5CAAFE9F)
 # How to use Square AppCompat ImageView?
 
 From xml:
