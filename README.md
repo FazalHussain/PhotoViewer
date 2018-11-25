@@ -5,7 +5,8 @@
 SquareImageView is a simple wrapper library for Android AppCompat ImageView.
 
 ![Square Image View](https://scontent.fkhi2-1.fna.fbcdn.net/v/t1.15752-9/46821428_317032732470367_5979977455501312000_n.png?_nc_cat=107&_nc_ht=scontent.fkhi2-1.fna&oh=5fc850f0148f5e2ea25bf88bcd6df961&oe=5C6DA560)
-![Rectangle Image View](blob:https://web.whatsapp.com/df477d5a-098b-4fe4-9582-aa2133046170)
+![Rectangle Image View](https://scontent.fkhi2-1.fna.fbcdn.net/v/t1.15752-9/46751221_2172401879753958_2845155777625194496_n.jpg?_nc_cat=100&_nc_ht=scontent.fkhi2-1.fna&oh=2155841ae26d40cd8fc5b608e5be0ebb&oe=5C6A1860)
+![Spiral Photo Viewer](https://scontent.fkhi2-1.fna.fbcdn.net/v/t1.15752-9/46751221_2172401879753958_2845155777625194496_n.jpg?_nc_cat=100&_nc_ht=scontent.fkhi2-1.fna&oh=2155841ae26d40cd8fc5b608e5be0ebb&oe=5C6A1860)
 # How to use Square AppCompat ImageView?
 
 From xml:
@@ -29,6 +30,47 @@ From xml:
         android:layout_height="wrap_content"
         android:background="@drawable/thinkoutsidethebox_newthumb" />
 ```
+
+# Spiral Photo Viewer
+
+From xml:
+
+```
+<com.example.library.SpiralPhotoViewer xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ulm" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/himeji" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/petronas_twin_tower" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chiang_mai" />
+
+
+</com.example.library.SpiralPhotoViewer>
+```
+
 
 # Gradle dependency
 
