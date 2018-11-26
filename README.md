@@ -1,4 +1,4 @@
-# SquareImageView
+# Photo Viewer
 [![](https://jitpack.io/v/Fazalcs13/SquareImageView.svg)](https://jitpack.io/#Fazalcs13/SquareImageView)
 
 # Description
