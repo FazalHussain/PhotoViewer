@@ -90,7 +90,7 @@ In your **project level's build.gradle:**
 ```
 dependencies {
     ...
-    implementation 'com.github.Fazalcs13:SquareImageView:1.0'
+    implementation 'com.github.Fazalcs13:SquareImageView:1.0.2'
 }
 ```
 
